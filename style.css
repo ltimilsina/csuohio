@@ -1,0 +1,50 @@
+/* Cleveland State University Theme Styling */
+:root {
+    --primary-color: #006A4E;   /* CSU Viking Green */
+    --accent-color: #004D38;    /* Darker CSU Green for Hover States */
+    --text-color: #333333;
+    --bg-color: #ffffff;
+    --secondary-bg: #f8f9fa;
+    --border-color: #e9ecef;
+}
+
+/* Universal Link Styling */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+/* Header & Nav Link Styling */
+nav a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+/* Institutional Bio Links */
+.profile-bio p a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Social & External Links */
+.social-links a {
+    margin-right: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
